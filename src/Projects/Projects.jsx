@@ -1,11 +1,9 @@
+import datas from'../json'
 const Projects=()=>{
+    console.log(datas)
     return(
         <>
-        {
-            datas.map=()=><div>
-
-            </div>
-        }
+       
         </>
     )
 }
