@@ -1,8 +1,8 @@
 import About from "./About/About"
 import Bannar from "./Bannar/Bannar"
-import Blog from "./Blog/Blog"
 import Navbar from "./Navbar/Navbar"
 import Projects from "./Projects/Projects"
+import Skills from "./Skills/Skills"
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
        <Navbar></Navbar>
        <Bannar></Bannar>
       <About></About>
-      <Blog></Blog> 
+    <Skills></Skills> 
       <Projects></Projects>      
       </div>
      

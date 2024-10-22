@@ -6,7 +6,7 @@ const  Navbar=()=>{
     const links=<div className="flex gap-8 font-serif font-semibold  ">
     <a href="#home" className="hover:text-cyan-200 hover:underline">Home</a>
     <a href="#About" className="hover:text-cyan-200 hover:underline">About</a>
-    <a href='#Blog' className="hover:text-cyan-200 hover:underline">Blog</a>
+    <a href='#Skills' className="hover:text-cyan-200 hover:underline">Skills</a>
     <a href='#Project' className="hover:text-cyan-200 hover:underline">Project</a>
     <a href='#Project'className="hover:text-cyan-200 hover:underline">Contact</a>
     </div>
