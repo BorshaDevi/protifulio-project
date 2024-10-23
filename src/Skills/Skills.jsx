@@ -9,7 +9,7 @@ const Skills=()=>{
     return (
         <>
         <div id='Skills' >
-        <h1 className="font-serif font-bold text-xl text-center text-white ">__My Skills</h1>
+        <h1 className="font-serif font-bold text-xl text-center text-white " data-aos="fade-up">__My Skills</h1>
 
        
         <Marquee pauseOnHover={true}

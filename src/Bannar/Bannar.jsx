@@ -1,6 +1,7 @@
 import { MdOutlineFileDownload } from "react-icons/md";
-import { Typewriter } from 'react-simple-typewriter'
-import 'animate.css'
+import { Typewriter } from 'react-simple-typewriter';
+import 'animate.css';
+import  MyResume from '../assets/React Developer-Resume-file.pdf'
 const Bannar=()=>{
     const handleDone = () => {
         console.log(`Done after 10 loops!`)
@@ -40,7 +41,7 @@ const Bannar=()=>{
           />
         </span>
       </p>
-      <button className="btn  bg-gradient-to-l from-cyan-500 to-blue-500 hover:bg-gradient-to-r text-white cursor-pointer text-xl animate__animated animate__bounce animate__fadeInDown animate__delay-4s " >Resume <span className="text-xl animate-bounce"><MdOutlineFileDownload /></span></button>
+      <a  href={MyResume} download className="btn  bg-gradient-to-l from-cyan-500 to-blue-500 hover:bg-gradient-to-r text-white cursor-pointer text-xl animate__animated animate__bounce animate__fadeInDown animate__delay-4s " >Resume <span className="text-xl animate-bounce"><MdOutlineFileDownload /></span></a>
     </div>
   </div>
 </div>
