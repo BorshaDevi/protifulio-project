@@ -21,7 +21,7 @@ const Contact=()=>{
       .then(
         (result) => {
           console.log(result);
-          if(result.status ===200){
+          if(result.text ==="OK"){
               e.target.reset()
               toast.success('Send your Email Successfully');
           }
