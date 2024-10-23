@@ -8,7 +8,7 @@ const  Navbar=()=>{
     <a href="#About" className="hover:text-cyan-200 hover:underline">About</a>
     <a href='#Skills' className="hover:text-cyan-200 hover:underline">Skills</a>
     <a href='#Project' className="hover:text-cyan-200 hover:underline">Project</a>
-    <a href='#Project'className="hover:text-cyan-200 hover:underline">Contact</a>
+    <a href='#Contact'className="hover:text-cyan-200 hover:underline">Contact</a>
     </div>
     return(
         <>
@@ -35,7 +35,7 @@ const  Navbar=()=>{
         {links}
       </ul>
     </div>
-    <a className=" text-3xl text-cyan-300 font-bold  flex font-serif"><DiNancy /> Portfolio</a>
+    <a className=" text-3xl text-cyan-300 font-bold  flex font-serif"><img src="https://i.ibb.co.com/xFmHGbz/code-file-11222847.png" alt="" className="w-10" /> Portfolio</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-white">

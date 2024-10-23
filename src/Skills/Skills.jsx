@@ -9,18 +9,20 @@ const Skills=()=>{
     return (
         <>
         <div id='Skills' >
+        <h1 className="font-serif font-bold text-xl text-center text-white ">__My Skills</h1>
+
        
         <Marquee pauseOnHover={true}
         
         >
-        <div className="flex gap-5">
+        <div className="flex gap-5 mt-5">
         <div className="border  hover:border-orange-700 hover:border-t-4 hover:border-r-4 hover:border-l-4 border-orange-600 bg-gradient-to-r from-orange-700 to-orange-400 grid justify-center items-center p-6 w-40 h-1/2 rounded-tl-[30px] ">
-            <img  className='rounded-full w-16' src="https://i.ibb.co.com/MZLVz2M/png-transparent-html-html-logo-html-5-html-five-logo-html-5-logo-programming-langugae-3d-icon-thumbn.png" alt="html" />
+            <img  className='rounded-full w-16' src="https://i.ibb.co.com/CBzzj5S/web-15474213.png" alt="html" />
             <br />
             <p className="font-bold font-serif text-white">HTML</p>
         </div>
         <div className="border hover:border-blue-700 hover:border-t-4 hover:border-r-4 hover:border-l-4 border-blue-600 bg-gradient-to-r from-blue-700 to-blue-400 grid justify-center items-center p-6 w-40 h-1/2 rounded-tl-[30px] ">
-            <img className='rounded-full w-16' src="https://i.ibb.co.com/4j1PS3w/png-transparent-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-an.png" alt="css" />
+            <img className='rounded-full w-16' src="https://i.ibb.co.com/Bj4MNhX/technology-14776814.png" alt="css" />
             <br />
             <p className="font-bold font-serif text-white">CSS</p>
         </div>
@@ -31,12 +33,12 @@ const Skills=()=>{
         </div>
        
         <div className="border hover:border-yellow-700 hover:border-t-4 hover:border-r-4 hover:border-l-4 border-yellow-600 bg-gradient-to-r from-yellow-700 to-yellow-400 grid justify-center items-center p-6 w-40 h-1/2 rounded-tl-[30px] ">
-            <img  className='rounded-full w-16'src="https://i.ibb.co.com/3kkZqqn/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png" alt="js" />
+            <img  className='rounded-full w-16'src="https://i.ibb.co.com/dPMrWvc/js-5968292.png" alt="js" />
             <br />
             <p className="font-bold font-serif text-white">JavaScript</p>
         </div>
         <div className="border hover:border-cyan-700 hover:border-t-4 hover:border-r-4 hover:border-l-4 border-cyan-600 bg-gradient-to-r from-cyan-700  to-cyan-400 grid justify-center items-center p-6 w-40 h-1/2 rounded-tl-[30px] ">
-            <img className='rounded-full w-16 ' src="https://i.ibb.co.com/GM8pqz9/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" alt="react" />
+            <img className='rounded-full w-16 ' src="https://i.ibb.co.com/qr8ckjf/physics-1126012.png" alt="react" />
             <br />
             <p className="font-bold font-serif text-white">React</p>
         </div>
@@ -51,7 +53,7 @@ const Skills=()=>{
             <p className="font-bold font-serif text-white">Express</p>
         </div>
         <div className="border hover:border-t-4 hover:border-r-4 hover:border-l-4 border-green-600 bg-gradient-to-r from-green-700 to-green-400 grid justify-center items-center p-6 w-40 h-1/2 rounded-tl-[30px] ">
-            <img  className='rounded-full w-16' src="https://i.ibb.co.com/yFDQRJ8/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="mongodb" />
+            <img  className='rounded-full w-16' src="https://i.ibb.co.com/0Fck1mq/database-storage-5732827.png" alt="mongodb" />
             <br />
             <p className="font-bold font-serif text-white">MongoDB</p>
         </div>
@@ -59,23 +61,23 @@ const Skills=()=>{
         </Marquee>
         <div className="mx-auto text-center"
         >
-        <p>HTML</p>
+        <p className="font-serif text-white">HTML</p>
          <input type="range"  min={0} max="100" defaultValue="100" className="range range-xs [--range-shdw:cyan] w-1/3" 
      
       />
-         <p>CSS</p>
+         <p className="font-serif text-white">CSS</p>
          <input type="range" min={0} max="100" defaultValue="60" className="range range-xs [--range-shdw:cyan] w-1/3" 
    
       />
-         <p>Tailwind</p>
+         <p className="font-serif text-white">Tailwind</p>
          <input type="range" min={0} max="100" defaultValue="100" className="range range-xs [--range-shdw:cyan] w-1/3"  
      
      />
-         <p>JavaScript</p>
+         <p className="font-serif text-white">JavaScript</p>
          <input type="range" min={0} max="100" defaultValue="50" className="range range-xs [--range-shdw:cyan] w-1/3" 
     
       />
-         <p>React</p>
+         <p className="font-serif text-white">React</p>
          <input type="range" min={0} max="100" defaultValue="50" className="range range-xs [--range-shdw:cyan] w-1/3" 
     
       />
