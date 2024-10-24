@@ -7,7 +7,7 @@ const About=()=>{
     },[])
     return(
         <>
-     <div id='About' className="hero bg-base-200 min-h-screen">
+     <div id='About' className="hero  min-h-screen">
   <div className="hero-content flex-col lg:flex-row"
   >
     <img data-aos="fade-right"
