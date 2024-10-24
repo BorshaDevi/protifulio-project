@@ -13,7 +13,7 @@ const About=()=>{
     <img data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"
-     data-aos-duration="400"
+     data-aos-duration="200"
       src="https://i.ibb.co.com/PhCxbtL/freepik-35mm-film-photography-a-young-caucasian-woman-with-75352.jpg"
       className="md:max-w-xl rounded-lg shadow-2xl" />
       <div   data-aos="fade-left"
