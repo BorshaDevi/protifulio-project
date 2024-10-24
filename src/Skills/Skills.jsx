@@ -59,7 +59,7 @@ const Skills=()=>{
         </div>
         </div>
         </Marquee>
-        <div className="mx-auto text-center"
+        {/* <div className="mx-auto text-center"
         >
         <p className="font-serif text-white">HTML</p>
          <input type="range"  min={0} max="100" defaultValue="100" className="range range-xs [--range-shdw:cyan] w-1/3" 
@@ -81,7 +81,7 @@ const Skills=()=>{
          <input type="range" min={0} max="100" defaultValue="50" className="range range-xs [--range-shdw:cyan] w-1/3" 
     
       />
-        </div>
+        </div> */}
         </div>
         
         </>
